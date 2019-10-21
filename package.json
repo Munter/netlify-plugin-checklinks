@@ -1,0 +1,71 @@
+{
+  "name": "netlify-plugin-checklinks",
+  "description": "Netlify build plugin check your links and asset references",
+  "repository": "git://github.com/munter/netlify-plugin-checklinks.git",
+  "version": "0.0.0",
+  "license": "BSD-3-Clause",
+  "maintainers": [
+    {
+      "name": "Peter Müller",
+      "email": "munter@fumle.dk"
+    }
+  ],
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "netlify",
+    "netlify-plugin",
+    "rev",
+    "revision",
+    "hash",
+    "versioning",
+    "cache",
+    "expire",
+    "static",
+    "asset",
+    "assets",
+    "cdn"
+  ],
+  "dependencies": {
+    "@munter/tap-render": "^0.2.0",
+    "globby": "^10.0.1",
+    "hyperlink": "^4.3.2",
+    "tap-spot": "^1.1.1"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.2",
+    "cpy-cli": "^2.0.0",
+    "eslint": "^6.0.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-config-standard": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-mocha": "^6.2.0",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "magicpen-prism": "3.0.2",
+    "mocha": "^6.0.0",
+    "netlify-cli": "^2.19.0",
+    "nyc": "^14.0.0",
+    "offline-github-changelog": "^1.6.1",
+    "prettier": "~1.18.2",
+    "rimraf": "^3.0.0",
+    "unexpected": "^11.0.0-1"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "cpy site dist",
+    "lint": "eslint . && prettier --check '**/*.js'",
+    "test": "mocha",
+    "ci": "npm run lint && npm run coverage",
+    "coverage": "NODE_ENV=test nyc --reporter=lcov --reporter=text --all -- mocha --reporter dot && echo google-chrome coverage/lcov-report/index.html",
+    "preversion": "offline-github-changelog --next=${npm_package_version} > CHANGELOG.md && git add CHANGELOG.md"
+  },
+  "nyc": {
+    "include": [
+      "lib/**"
+    ]
+  }
+}

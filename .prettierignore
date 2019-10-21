@@ -1,0 +1,5 @@
+/node_modules/
+/coverage/
+
+# Don't fight npm install --save
+/package.json
