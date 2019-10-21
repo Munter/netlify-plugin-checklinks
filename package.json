@@ -16,16 +16,10 @@
   "keywords": [
     "netlify",
     "netlify-plugin",
-    "rev",
-    "revision",
-    "hash",
-    "versioning",
-    "cache",
-    "expire",
-    "static",
-    "asset",
-    "assets",
-    "cdn"
+    "linkcheck",
+    "links",
+    "broken",
+    "linkrot"
   ],
   "dependencies": {
     "@munter/tap-render": "^0.2.0",
