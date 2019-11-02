@@ -22,8 +22,7 @@ Then add the following to your `netlify.yml`:
 
 ```yml
 plugins:
-  checklinks:
-    type: netlify-plugin-checklinks
+  - type: netlify-plugin-checklinks
 ```
 
 ## Configuration
@@ -34,8 +33,7 @@ These are the configuration options with their default values:
 
 ```yml
 plugins:
-  checklinks:
-    type: netlify-plugin-checklinks
+  - type: netlify-plugin-checklinks
     config:
       # An array of glob patterns for pages on your site
       # Recursive traversal will start from these
