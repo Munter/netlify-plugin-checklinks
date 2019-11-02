@@ -28,6 +28,7 @@
     "tap-spot": "^1.1.1"
   },
   "devDependencies": {
+    "@netlify/build": "^0.1.7",
     "coveralls": "^3.0.2",
     "cpy-cli": "^2.0.0",
     "eslint": "^6.0.0",
@@ -53,7 +54,8 @@
     "build": "cpy site dist",
     "lint": "eslint . && prettier --check '**/*.js'",
     "test": "mocha",
-    "ci": "npm run lint && npm run coverage",
+    "netlify-build": "netlify-build",
+    "ci": "npm run lint && npm run netlify-build && npm run coverage",
     "coverage": "NODE_ENV=test nyc --reporter=lcov --reporter=text --all -- mocha --reporter dot && echo google-chrome coverage/lcov-report/index.html",
     "preversion": "offline-github-changelog --next=${npm_package_version} > CHANGELOG.md && git add CHANGELOG.md"
   },

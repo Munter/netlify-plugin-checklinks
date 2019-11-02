@@ -3,5 +3,4 @@ build:
   publish: dist
 
 plugins:
-  checklinks:
-    type: ./lib/index.js
+  - type: ./lib/index.js
