@@ -1,3 +1,8 @@
+### v1.0.3 (2019-11-05)
+
+- [Switch to json schema for config validation](https://github.com/Munter/netlify-plugin-checklinks/commit/d739843807e76735a12585ed84a7485377b603ff) ([Peter Müller](mailto:munter@fumle.dk))
+- [Add json schema for configuration](https://github.com/Munter/netlify-plugin-checklinks/commit/ae2b2e7096c8d6bdb11efc58b4f731a50b680d8a) ([Peter Müller](mailto:munter@fumle.dk))
+
 ### v1.0.2 (2019-11-02)
 
 - [Fix README so it includes the correct config examples](https://github.com/Munter/netlify-plugin-checklinks/commit/f125096becf09c54b0bffc76b4307c8d0bfe3aef) ([Peter Müller](mailto:munter@fumle.dk))
