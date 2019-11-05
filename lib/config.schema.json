@@ -1,11 +1,11 @@
 {
   "canonicalRoot": {
-    "displayName": "Canonical root",
+    "title": "Canonical root",
     "description": "Setting canonicalRoot will enable subfont to map canonical URL's to your page in your code to local files on disk",
     "type": "string"
   },
   "entryPoints": {
-    "displayName": "Entry points",
+    "title": "Entry points",
     "description": "An array of glob patterns for pages on your site. Recursive traversal will start from these",
     "type": "array",
     "items": [
@@ -14,33 +14,26 @@
       }
     ],
     "minItems": 1,
-    "uniqueItems": true,
-    "default": [
-      "*.html"
-    ]
+    "uniqueItems": true
   },
   "recursive": {
     "description": "Recurse through all the links and asset references on your page, starting at the entrypoints",
-    "type": "boolean",
-    "default": true
+    "type": "boolean"
   },
   "pretty": {
     "description": "Checklinks outputs TAP (https://testanything.org/tap-version-13-specification.html) by default. Enabling pretty mode makes the output easier on the eyes.",
-    "type": "boolean",
-    "default": true
+    "type": "boolean"
   },
   "checkExternal": {
     "description": "Report on all broken links to extrnal pages. Enabling this will make your tests more brittle, since you can't control external pages.",
-    "type": "boolean",
-    "default": false
+    "type": "boolean"
   },
   "followSourceMaps": {
     "description": "Enable to check references to source maps, source map sources etc. Many build tools don't emit working references, so this is disabled by default",
-    "type": "boolean",
-    "default": false
+    "type": "boolean"
   },
   "skipPatterns": {
-    "displayName": "Skip patterns",
+    "title": "Skip patterns",
     "description": "You can mark some check as skipped, which will block checklinks from ever attempting to execute them. skipPatterns is an array of strings you can match against failing reports",
     "type": "array",
     "items": [
@@ -48,11 +41,10 @@
         "type": "string"
       }
     ],
-    "uniqueItems": true,
-    "default": []
+    "uniqueItems": true
   },
   "todoPatterns": {
-    "displayName": "Todo patterns",
+    "title": "Todo patterns",
     "description": "You can mark some check as todo, which will execute the check, but allow failures. todoPatterns is an array of strings you can match against failing reports",
     "type": "array",
     "items": [
@@ -60,7 +52,6 @@
         "type": "string"
       }
     ],
-    "uniqueItems": true,
-    "default": []
+    "uniqueItems": true
   }
 }
