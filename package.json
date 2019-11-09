@@ -2,7 +2,7 @@
   "name": "netlify-plugin-checklinks",
   "description": "Netlify build plugin check your links and asset references",
   "repository": "git://github.com/munter/netlify-plugin-checklinks.git",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "license": "BSD-3-Clause",
   "maintainers": [
     {
