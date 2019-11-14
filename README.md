@@ -38,7 +38,7 @@ plugins:
       # An array of glob patterns for pages on your site
       # Recursive traversal will start from these
       entryPoints:
-        - *.html
+        - '*.html'
 
       # canonicalRoot is the origin where your page will eventually be deployed
       # Setting canonicalRoot will enable checklinks to map canonical URL's to your
