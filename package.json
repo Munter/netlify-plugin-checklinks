@@ -24,29 +24,29 @@
   "dependencies": {
     "@munter/tap-render": "^0.2.0",
     "globby": "^10.0.1",
-    "hyperlink": "^4.3.2",
+    "hyperlink": "^4.4.2",
     "tap-spot": "^1.1.1"
   },
   "devDependencies": {
-    "@netlify/build": "^0.1.13",
+    "@netlify/build": "^0.1.20",
     "coveralls": "^3.0.2",
     "cpy-cli": "^2.0.0",
-    "eslint": "^6.0.0",
-    "eslint-config-prettier": "^6.0.0",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.6.0",
     "eslint-config-standard": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-mocha": "^6.2.0",
+    "eslint-plugin-mocha": "^6.2.1",
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
     "magicpen-prism": "3.0.2",
     "mocha": "^6.0.0",
-    "netlify-cli": "^2.19.0",
+    "netlify-cli": "^2.21.0",
     "nyc": "^14.0.0",
     "offline-github-changelog": "^1.6.1",
     "prettier": "~1.19.0",
     "rimraf": "^3.0.0",
-    "unexpected": "^11.0.0-1"
+    "unexpected": "^11.8.1"
   },
   "main": "lib/index.js",
   "scripts": {
