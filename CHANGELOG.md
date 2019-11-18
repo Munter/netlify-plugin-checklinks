@@ -1,3 +1,10 @@
+### v3.0.0 (2019-11-18)
+
+- [Remove canonicalRoot config in favor of using URL environment variable](https://github.com/Munter/netlify-plugin-checklinks/commit/e25583f625ab558dcf6f722fa86ae2d40e963993) ([Peter Müller](mailto:munter@fumle.dk))
+- [Update dependencies](https://github.com/Munter/netlify-plugin-checklinks/commit/a1aa2ecc92baf0cc59ec9166fb43ea1a103cbc2f) ([Peter Müller](mailto:munter@fumle.dk))
+- [Fix entrypoints example in readme](https://github.com/Munter/netlify-plugin-checklinks/commit/4c4173fd2e3dc174ba0b0fbddea29e3853ce7bdb) ([Peter Müller](mailto:munter@fumle.dk))
+- [Add accidentally missing globby dependency](https://github.com/Munter/netlify-plugin-checklinks/commit/9a33f11bf9630173916a1549141d3575a9a0b254) ([Peter Müller](mailto:munter@fumle.dk))
+
 ### v2.0.0 (2019-11-09)
 
 #### Pull requests
