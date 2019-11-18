@@ -2,12 +2,6 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
-    "canonicalRoot": {
-      "title": "Canonical root",
-      "description": "Setting canonicalRoot will enable subfont to map canonical URL's to your page in your code to local files on disk",
-      "type": "string",
-      "format": "uri"
-    },
     "entryPoints": {
       "title": "Entry points",
       "description": "An array of glob patterns for pages on your site. Recursive traversal will start from these",

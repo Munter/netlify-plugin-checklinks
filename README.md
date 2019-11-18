@@ -40,11 +40,6 @@ plugins:
       entryPoints:
         - '*.html'
 
-      # canonicalRoot is the origin where your page will eventually be deployed
-      # Setting canonicalRoot will enable checklinks to map canonical URL's to your
-      # page in your code to local files on disk
-      canonicalRoot: https://your-page.netlify.com
-
       # Recurse through all the links and asset references on your page, starting
       # at the entrypoints
       recursive: true
