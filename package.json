@@ -28,11 +28,11 @@
     "tap-spot": "^1.1.1"
   },
   "devDependencies": {
-    "@netlify/build": "^0.1.20",
+    "@netlify/build": "^0.1.23",
     "coveralls": "^3.0.2",
     "cpy-cli": "^2.0.0",
     "eslint": "^6.6.0",
-    "eslint-config-prettier": "^6.6.0",
+    "eslint-config-prettier": "^6.7.0",
     "eslint-config-standard": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-mocha": "^6.2.1",
