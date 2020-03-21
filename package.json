@@ -44,7 +44,7 @@
     "netlify-cli": "^2.21.0",
     "nyc": "^15.0.0",
     "offline-github-changelog": "^1.6.1",
-    "prettier": "~1.19.0",
+    "prettier": "~2.0.0",
     "rimraf": "^3.0.0",
     "unexpected": "^11.8.1"
   },
