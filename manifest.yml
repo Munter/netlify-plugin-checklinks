@@ -1,0 +1,30 @@
+name: netlify-plugin-checklinks
+inputs:
+  - name: entryPoints
+    default: ['*.html']
+    # description: An array of glob patterns for pages on your site. Recursive traversal will start from these
+    # validation: array of strings, at least one item, unique items
+  - name: recursive
+    default: true
+    # description: Recurse through all the links and asset references on your page, starting at the entrypoints
+    # validation: boolean
+  - name: pretty
+    default: true
+    # description: Checklinks outputs TAP (https://testanything.org/tap-version-13-specification.html) by default. Enabling pretty mode makes the output easier on the eyes.
+    # validation: boolean
+  - name: checkExternal
+    default: false
+    # description: Report on all broken links to extrnal pages. Enabling this will make your tests more brittle, since you can't control external pages.
+    # validation: boolean
+  - name: followSourceMaps
+    default: false
+    # description: Enable to check references to source maps, source map sources etc. Many build tools don't emit working references, so this is disabled by default
+    # validation: boolean
+  - name: skipPatterns
+    default: []
+    # description: You can mark some check as skipped, which will block checklinks from ever attempting to execute them. skipPatterns is an array of strings you can match against failing reports
+    # validation: array of strings, unique items
+  - name: todoPatterns
+    default: []
+    # description: You can mark some check as todo, which will execute the check, but allow failures. todoPatterns is an array of strings you can match against failing reports
+    # validation: array of strings, unique items
