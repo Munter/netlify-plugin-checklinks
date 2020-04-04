@@ -14,16 +14,14 @@ need more granular control or want to add a different [TAP-reporter](https://www
 
 ## Installation
 
-```
-npm install --save-dev netlify-plugin-checklinks
+To install, add the following lines to your `netlify.toml` file:
+
+```toml
+[[plugins]]
+package = "netlify-plugin-checklinks"
 ```
 
-Then add the following to your `netlify.yml`:
-
-```yml
-plugins:
-  - type: netlify-plugin-checklinks
-```
+Note: The `[[plugins]]` line is required for each plugin, even if you have other plugins in your `netlify.toml` file already.
 
 ## Configuration
 
@@ -31,40 +29,42 @@ Checklinks works out of the box, but can be improved upon with some improved kno
 
 These are the configuration options with their default values:
 
-```yml
-plugins:
-  - type: netlify-plugin-checklinks
-    config:
-      # An array of glob patterns for pages on your site
-      # Recursive traversal will start from these
-      entryPoints:
-        - '*.html'
+```toml
+[[plugins]]
+package = "netlify-plugin-checklinks"
 
-      # Recurse through all the links and asset references on your page, starting
-      # at the entrypoints
-      recursive: true
+  [plugins.inputs]
+  # An array of glob patterns for pages on your site
+  # Recursive traversal will start from these
+  entryPoints = [
+    "*.html",
+  ]
 
-      # Checklinks outputs TAP (https://testanything.org/tap-version-13-specification.html)
-      # by default. Enabling pretty mode makes the output easier on the eyes.
-      pretty: true
+  # Recurse through all the links and asset references on your page, starting
+  # at the entrypoints
+  recursive = true
 
-      # You can mark some check as skipped, which will block checklinks
-      # from ever attempting to execute them.
-      # skipPatterns is an array of strings you can match against failing reports
-      skipPatterns: []
+  # Checklinks outputs TAP (https://testanything.org/tap-version-13-specification.html)
+  # by default. Enabling pretty mode makes the output easier on the eyes.
+  pretty = true
 
-      # You can mark some check as todo, which will execute the check, but allow failures.
-      # todoPatterns is an array of strings you can match against failing reports
-      todoPatterns: []
+  # You can mark some check as skipped, which will block checklinks
+  # from ever attempting to execute them.
+  # skipPatterns is an array of strings you can match against failing reports
+  skipPatterns = []
 
-      # Report on all broken links to extrnal pages.
-      # Enabling this will make your tests more brittle, since you can't control
-      # external pages.
-      checkExternal: false
+  # You can mark some check as todo, which will execute the check, but allow failures.
+  # todoPatterns is an array of strings you can match against failing reports
+  todoPatterns = []
 
-      # Enable to check references to source maps, source map sources etc.
-      # Many build tools don't emit working references, so this is disabled by default
-      followSourceMaps: false
+  # Report on all broken links to extrnal pages.
+  # Enabling this will make your tests more brittle, since you can't control
+  # external pages.
+  checkExternal = false
+
+  # Enable to check references to source maps, source map sources etc.
+  # Many build tools don't emit working references, so this is disabled by default
+  followSourceMaps = false
 ```
 
 ## License
