@@ -1,10 +1,11 @@
 {
   "extends": ["standard", "prettier", "prettier/standard"],
-  "plugins": ["mocha"],
+  "plugins": ["mocha", "prettier"],
   "env": {
     "mocha": true
   },
   "rules": {
+    "prettier/prettier": "error",
     "prefer-template": "error",
     "mocha/no-exclusive-tests": "error",
     "mocha/no-nested-tests": "error",

@@ -40,6 +40,7 @@
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-mocha": "^6.3.0",
     "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
     "magicpen-prism": "^4.0.0",
@@ -55,7 +56,7 @@
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "cpy site dist",
-    "lint": "eslint . && prettier --check '**/*.js'",
+    "lint": "eslint .",
     "test": "mocha",
     "netlify-build": "netlify-build",
     "ci": "npm run lint && npm run netlify-build && npm run coverage",
