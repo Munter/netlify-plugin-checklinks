@@ -1,3 +1,18 @@
+### v4.0.0 (2020-04-04)
+
+#### Pull requests
+
+- [#13](https://github.com/munter/netlify-plugin-checklinks/pull/13) Update installation instructions ([Jessica Parsons](mailto:verythorough@users.noreply.github.com))
+- [#18](https://github.com/munter/netlify-plugin-checklinks/pull/18) Upgrade to latest version of Netlify Build ([ehmicky](mailto:ehmicky@gmail.com))
+- [#10](https://github.com/munter/netlify-plugin-checklinks/pull/10) Update eslint-plugin-node to the latest version 🚀 ([greenkeeper[bot]](mailto:23040076+greenkeeper[bot]@users.noreply.github.com))
+- [#9](https://github.com/munter/netlify-plugin-checklinks/pull/9) Update nyc to the latest version 🚀 ([greenkeeper[bot]](mailto:23040076+greenkeeper[bot]@users.noreply.github.com))
+
+#### Commits to master
+
+- [Add prettier to eslint config instead of running it standalone](https://github.com/munter/netlify-plugin-checklinks/commit/a798498f3cef99c20be96e8c8c2bfde9da6c153b) ([Peter Müller](mailto:munter@fumle.dk))
+- [Npm audit](https://github.com/munter/netlify-plugin-checklinks/commit/8a2aace772f74d3c8d5d4f44d9c77043e1572a9e) ([Peter Müller](mailto:munter@fumle.dk))
+- [Update dependencies and adapt to netllify deprecatoing yaml config](https://github.com/munter/netlify-plugin-checklinks/commit/cf7a5b47397f02e63e6516059f77ef304cead013) ([Peter Müller](mailto:munter@fumle.dk))
+
 ### v3.0.1 (2019-12-10)
 
 #### Pull requests
