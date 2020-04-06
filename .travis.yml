@@ -5,5 +5,11 @@ node_js:
   - 10
   - node
 
-script: npm run ci
+matrix:
+  include:
+    - name: Lint
+      node_js: node
+      script: npm run lint
+
+script: npm run test:ci
 after_success: <coverage/lcov.info ./node_modules/coveralls/bin/coveralls.js
