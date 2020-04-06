@@ -8,7 +8,7 @@ node_js:
 matrix:
   include:
     - name: Lint
-      node_js: node
+      node_js: lts/*
       script: npm run lint
 
 script: npm run test:ci
