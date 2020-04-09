@@ -57,7 +57,7 @@ package = "netlify-plugin-checklinks"
   # todoPatterns is an array of strings you can match against failing reports
   todoPatterns = []
 
-  # Report on all broken links to extrnal pages.
+  # Report on all broken links to external pages.
   # Enabling this will make your tests more brittle, since you can't control
   # external pages.
   checkExternal = false
