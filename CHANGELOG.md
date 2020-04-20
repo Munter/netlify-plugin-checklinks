@@ -1,4 +1,22 @@
-### v4.0.0 (2020-04-04)
+### v4.0.1 (2020-04-20)
+
+#### Pull requests
+
+- [#26](https://github.com/munter/netlify-plugin-checklinks/pull/26) fix minor typo in README ([Christopher Robert Van Wiemeersch](mailto:hearcomestreble@gmail.com))
+- [#22](https://github.com/munter/netlify-plugin-checklinks/pull/22) Pin dependencies ([Renovate Bot](mailto:bot@renovateapp.com))
+- [#23](https://github.com/munter/netlify-plugin-checklinks/pull/23) Update Node.js to 10,12,13 ([Renovate Bot](mailto:bot@renovateapp.com))
+- [#21](https://github.com/munter/netlify-plugin-checklinks/pull/21) Configure Renovate ([Renovate Bot](mailto:bot@renovateapp.com))
+
+#### Commits to master
+
+- [Add missing manifest.yml to get netlify build to apply default configuration](https://github.com/munter/netlify-plugin-checklinks/commit/5544dd180dd84342c64e08e5dc2b8c9e9fb27ce1) ([Peter Müller](mailto:munter@fumle.dk))
+- [Update dependency netlify-cli to v2.47.0](https://github.com/munter/netlify-plugin-checklinks/commit/e2605008a0c56ab5d730e8ff7d31e362e2f3b0db) ([Renovate Bot](mailto:bot@renovateapp.com))
+- [Update dependency @netlify\/build to v0.3.6](https://github.com/munter/netlify-plugin-checklinks/commit/4228eec7f9a81b2cf714efdb1dd73b4834a1bc7e) ([Renovate Bot](mailto:bot@renovateapp.com))
+- [Update dependency @netlify\/build to v0.3.4](https://github.com/munter/netlify-plugin-checklinks/commit/c6270c656677823eaa94faf1c699df8fe78440b5) ([Renovate Bot](mailto:bot@renovateapp.com))
+- [Update dependency @netlify\/build to v0.3.3](https://github.com/munter/netlify-plugin-checklinks/commit/1cbc0bf567d7b6808684c2782c631de8bf0d8720) ([Renovate Bot](mailto:bot@renovateapp.com))
+- [+18 more](https://github.com/munter/netlify-plugin-checklinks/compare/v4.0.0...v4.0.1)
+
+### v4.0.0 (2020-04-05)
 
 #### Pull requests
 
