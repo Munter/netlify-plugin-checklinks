@@ -1,3 +1,12 @@
+### v4.1.0 (2020-05-03)
+
+- [Update to hyperlink 4.5.0 and always enable extensionless "pretty url" support. Closes \#62](https://github.com/munter/netlify-plugin-checklinks/commit/f9b242eef7ebce261dbdba8684eef494b4d70dc0) ([Peter Müller](mailto:munter@fumle.dk))
+- [Update dependency @netlify\/build to v0.4.13](https://github.com/munter/netlify-plugin-checklinks/commit/203600ce094faaf59373c33d57a6ad003ef46473) ([Renovate Bot](mailto:bot@renovateapp.com))
+- [Update dependency @netlify\/build to v0.4.12](https://github.com/munter/netlify-plugin-checklinks/commit/b185713aa1e54d308c271f89ee501d739bd3d35d) ([Renovate Bot](mailto:bot@renovateapp.com))
+- [Update dependency @netlify\/build to v0.4.11](https://github.com/munter/netlify-plugin-checklinks/commit/3b013c68d2b480ecd886324195522ae8f52dd15e) ([Renovate Bot](mailto:bot@renovateapp.com))
+- [Update dependency @netlify\/build to v0.4.9](https://github.com/munter/netlify-plugin-checklinks/commit/66c8f9bc34c5429b99cad80ddb4a96d97724a925) ([Renovate Bot](mailto:bot@renovateapp.com))
+- [+17 more](https://github.com/munter/netlify-plugin-checklinks/compare/v4.0.1...v4.1.0)
+
 ### v4.0.1 (2020-04-20)
 
 #### Pull requests
