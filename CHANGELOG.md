@@ -1,3 +1,20 @@
+### v4.1.1 (2020-05-21)
+
+#### Pull requests
+
+- [#100](https://github.com/munter/netlify-plugin-checklinks/pull/100) Update dependency @netlify\/build to v0.4.45 ([Renovate Bot](mailto:bot@renovateapp.com))
+- [#96](https://github.com/munter/netlify-plugin-checklinks/pull/96) Rename `BUILD\_DIR` to `PUBLISH\_DIR` ([ehmicky](mailto:ehmicky@gmail.com))
+- [#49](https://github.com/munter/netlify-plugin-checklinks/pull/49) Update Node.js to 10,12,13,14 ([Renovate Bot](mailto:bot@renovateapp.com))
+
+#### Commits to master
+
+- [Update dependency @netlify\/build to v0.4.44](https://github.com/munter/netlify-plugin-checklinks/commit/cfe2202be062f1960bd767c3a1f1e67f53eea8c2) ([Renovate Bot](mailto:bot@renovateapp.com))
+- [Update dependency @netlify\/build to v0.4.43](https://github.com/munter/netlify-plugin-checklinks/commit/2c7095ad646285934fc97c2e0137e7d109280fc6) ([Renovate Bot](mailto:bot@renovateapp.com))
+- [Update dependency @netlify\/build to v0.4.42](https://github.com/munter/netlify-plugin-checklinks/commit/60f3c9bf3763496e19e776df4b89861feb365e8f) ([Renovate Bot](mailto:bot@renovateapp.com))
+- [Update dependency @netlify\/build to v0.4.40](https://github.com/munter/netlify-plugin-checklinks/commit/5077ae4457c7e5ee956acd6c6737e53e6d61d9b5) ([Renovate Bot](mailto:bot@renovateapp.com))
+- [Update dependency @netlify\/build to v0.4.39](https://github.com/munter/netlify-plugin-checklinks/commit/558fc484f20b05a0994ad07d8049de159f6febd6) ([Renovate Bot](mailto:bot@renovateapp.com))
+- [+19 more](https://github.com/munter/netlify-plugin-checklinks/compare/v4.1.0...v4.1.1)
+
 ### v4.1.0 (2020-05-03)
 
 - [Update to hyperlink 4.5.0 and always enable extensionless "pretty url" support. Closes \#62](https://github.com/munter/netlify-plugin-checklinks/commit/f9b242eef7ebce261dbdba8684eef494b4d70dc0) ([Peter Müller](mailto:munter@fumle.dk))
