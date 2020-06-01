@@ -47,7 +47,7 @@
     "magicpen-prism": "4.0.0",
     "mocha": "7.2.0",
     "netlify-cli": "2.52.0",
-    "nyc": "15.0.1",
+    "nyc": "15.1.0",
     "offline-github-changelog": "1.6.1",
     "prettier": "2.0.5",
     "rimraf": "3.0.2",
