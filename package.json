@@ -35,7 +35,7 @@
     "@netlify/build": "1.0.16",
     "coveralls": "3.1.0",
     "cpy-cli": "3.1.1",
-    "eslint": "7.1.0",
+    "eslint": "7.2.0",
     "eslint-config-prettier": "6.11.0",
     "eslint-config-standard": "14.1.1",
     "eslint-plugin-import": "2.20.2",
