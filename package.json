@@ -32,7 +32,7 @@
     "tap-spot": "^1.1.1"
   },
   "devDependencies": {
-    "@netlify/build": "2.0.25",
+    "@netlify/build": "2.0.26",
     "coveralls": "3.1.0",
     "cpy-cli": "3.1.1",
     "eslint": "7.3.1",
