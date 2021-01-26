@@ -46,7 +46,7 @@
     "eslint-plugin-standard": "4.1.0",
     "magicpen-prism": "4.1.1",
     "mocha": "8.2.1",
-    "netlify-cli": "3.4.2",
+    "netlify-cli": "3.4.3",
     "nyc": "15.1.0",
     "offline-github-changelog": "2.2.0",
     "prettier": "2.2.1",
