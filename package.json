@@ -28,7 +28,7 @@
   "dependencies": {
     "@munter/tap-render": "^0.2.0",
     "globby": "^11.0.0",
-    "hyperlink": "^4.5.0",
+    "hyperlink": "5.0.4",
     "tap-spot": "^1.1.1"
   },
   "devDependencies": {
