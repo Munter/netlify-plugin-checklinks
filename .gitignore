@@ -3,3 +3,6 @@
 .DS_Store
 /.nyc_output/
 dist
+
+# Local Netlify folder
+.netlify
