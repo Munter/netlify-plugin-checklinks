@@ -29,7 +29,7 @@
     "@munter/tap-render": "^0.2.0",
     "globby": "^11.0.0",
     "hyperlink": "5.0.4",
-    "tap-spot": "^1.1.1"
+    "tap-spot": "^1.1.2"
   },
   "devDependencies": {
     "@netlify/build": "11.14.0",
